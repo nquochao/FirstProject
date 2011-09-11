@@ -1,8 +1,51 @@
-<h1>Sample App</h1>
+<h1>Créez votre CV et votre lettre de motivation</h1>
 <p>
-  This is the home page for the
-  <a href="http://railstutorial.org/">Ruby on Rails Tutorial</a>
-  sample application.
+
 </p>
-<%= link_to "Sign up now!", signup_path, :class => "signup_button round" %>
+<table border="0">
+<tr>
+	<td>
+	<p>Crée ton cv directement ou à partir de ton profil <b>linkedin</b>.</p>
+	<p>- Le menu <b>style</b> permet de personnaliser l'aspect visuel du CV.</p>
+	<p>- Les éléments du CV sont drag & drop. </p>
+	<p>- Si tu es <b>loggé</b>, tu pourras sauvegarder ton profil.</p>
+	<p>Vous pouvez ainsi ordonner les différentes rubriques de votre CV.</p>
+	</td>
+
+	<td>
+	<p>Ecris ta lettre de motivation.</p>
+	<p>- La lettre te sera <b>zippée</b> ainsi que l'offre à laquelle tu réponds</p>
+	<p>- Si tu souhaites un envoi par email, les paramètres de ton serveur <b>POP</b> sont nécessaires.</p>
+	<p>- Si tu es <b>loggé</b>, tu pourras sauvegarder ton profil.</p>
+	</td>
+</tr>
+<tr>
+	<td>
+	<%= link_to "lettre de motivation", "/lettre_de_motivation", :class => "signup_button round" %>
+	</td>
+	<td>
+	<%= link_to "CV", "/cv", :class => "signup_button round" %>
+	</td>
+
+</tr>
+<tr>
+	<td >
+	<p>Votre page <b>Bientôt sur le net</b> s'installe en 2 mns:</p>
+	<p>- download & dézippe: tu obtiens le dossier <b>soon</b></p>
+	<p>- inscris toi sur frenchoverture.com pour avoir un <b>login</b></p>
+	<p>- remplace mon login hao.nguyen2007 sur soon.html par le tien dans la balise</p>
+	<meta content="hao.nguyen2007" id="frenchoverture.com-id" />
+	<p>- uploade sur ton site internet le contenu du dossier soon</p>
+	<p><b>Features</b> :</p>
+	<p>- garder les commentaires</p>
+	<p>- garder les emails</p>
+	<p>- envoyer des emails lors d'ajout de commentaires </p>
+	<%= link_to "Bientôt sur le net", "/soon", :class => "signup_button round" %>
+
+	<%= link_to "download", "/soon/soon.zip", :class =>"download_button round" %>
+
+	</p></td>
+
+</tr>
+</table> 
 
