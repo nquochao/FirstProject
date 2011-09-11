@@ -3,7 +3,11 @@
   <head>
     <title><%= title %></title>
     <%= csrf_meta_tag %>
-    <%= render 'layouts/stylesheets' %>
+	<%= render 'layouts/meta_description' %>    
+	<%= render 'layouts/analytics' %>    
+	<%= render 'layouts/facebook' %>    
+	<%= render 'layouts/stylesheets' %>
+       <link rel="shortcut icon" href="frenchoverture.ico" />
   </head>
   <body>
     <div class="container">
@@ -12,8 +16,10 @@
         <%= yield %>
       </section>
       <%= render 'layouts/footer' %>
+      <%= render 'layouts/social' %>  
     </div>
-  </body>
+
+   </body>
 </html>
 
 

@@ -4,6 +4,7 @@ h1, h2, h3, h4, h5, h6 {font-weight:bold;color:#9C988F;}
 }
 p {
 color: #54535E;
+font-size: 12px;
 }
 body {
   background: url(../images/wallpaper.jpg) 50% 50% fixed no-repeat;
@@ -101,12 +102,23 @@ a.download_button {
 /* footers */
 footer {
   text-align: center;
-  margin-top: 10px;
+  margin-top: 20px;
   width: 710px;
   margin-left: auto;
   margin-right: auto;
 }
 footer nav {
+  float: none;
+}
+social {
+  margin-top: 10px;
+  text-align: center;
+  padding: 20px;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+social nav {
   float: none;
 }
 
