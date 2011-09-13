@@ -42,10 +42,26 @@
 	<p>- envoyer des emails lors d'ajout de commentaires </p>
 	<%= link_to "Bientôt sur le net", "/soon", :class => "signup_button round" %>
 
-	<%= link_to "download", "/soon/soon.zip", :class =>"download_button round" %>
 
-	</p></td>
+	</p>
+	</td>
+
+<tr>
+	<td colspan="2">
+	<p><%= link_to "lost your password and your login, we will send you an email ", "/signup#askloginpassword" %></p>
+	<p><%= link_to "lost your password? we will send you an email", "/signup#askpassword" %></p>
+
+	</td>
+
 
 </tr>
+<tr>
+	<td>
+	<%= link_to "download", "/soon/soon.zip", :class =>"download_button round" %>	
+	</td>
+
+
+</tr>
+
 </table> 
 
