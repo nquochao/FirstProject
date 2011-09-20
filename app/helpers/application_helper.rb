@@ -1,7 +1,7 @@
 module ApplicationHelper
   # Return a title on a per-page basis.
   def title
-    base_title = "frenchoverture- CV, lettre de motivation, et launch soon page"
+    base_title = "frenchoverture - CV, lettre de motivation, et launch soon page"
     if @title.nil?
       base_title
     else
