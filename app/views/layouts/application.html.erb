@@ -7,17 +7,21 @@
 	<%= render 'layouts/analytics' %>    
 	<%= render 'layouts/facebook' %>    
 	<%= render 'layouts/stylesheets' %>
+	<%= render 'layouts/meta_soon' %>    
        <link rel="shortcut icon" href="frenchoverture.ico" />
+
   </head>
   <body>
-    <div class="container">
-      <%= render 'layouts/header' %>
-      <section class="round">
-        <%= yield %>
-      </section>
-      <%= render 'layouts/footer' %>
-      <%= render 'layouts/social' %>  
-    </div>
+	<div class="background">
+	    <div class="container">
+			      <%= render 'layouts/header' %>
+			      <section class="round">
+				<%= yield %>
+			      </section>
+			      <%= render 'layouts/footer' %>
+			      <%= render 'layouts/social' %>  
+	    </div>
+	</div>
 
    </body>
 </html>

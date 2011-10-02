@@ -2,11 +2,13 @@ h1, h2, h3, h4, h5, h6 {font-weight:bold;color:#9C988F;}
 .container {
   width: 710px;
 }
+
+
 p {
 color: #54535E;
 font-size: 12px;
 }
-body {
+body, .background {
   background: url(../images/wallpaper.jpg) 50% 50% fixed no-repeat;
 }
 header {
@@ -121,4 +123,69 @@ social {
 social nav {
   float: none;
 }
+/*soon elements*/
+.follower{
+display:block;
+}
+.button {
 
+	background:white;
+	color: green;
+	-moz-border-radius         :        5px;
+    -webkit-border-radius      :        5px;  	
+}
+.post-date {
+font-weight: bold;
+font-size:80%;
+float:right;
+max-width:250px;
+
+}
+.post-message {
+	width:300px;
+}
+.post-name {
+	font-size:80%;
+	font-weight: bold;
+}
+.poweredby {
+	font-size:80%;
+	margin: auto auto auto auto;
+
+}
+.footer {
+	font-size:80%;
+  		margin: auto auto auto auto;
+  	
+}
+
+.timer {
+	font-weight: bold;
+	font-size:100%;
+	
+	margin: 0px auto 0px auto;
+}
+.follower{
+
+
+
+}
+.forumwrite,.forumread{
+
+
+}
+.gwt-Anchor:link {
+	  color: #0066cc;
+  text-decoration:none;
+}
+.gwt-Anchor:visited {}
+.gwt-Anchor:hover {
+	  color: #0066cc;
+  text-decoration:underline;
+}
+.gwt-Anchor:active {
+		  color: #0066cc;
+  text-decoration:none;
+}
+.gwt-Anchor {
+}
